@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www2.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120425105343.103' name='Untitled'>
+  <resource id='org.bndtools.inject/0.0.0' presentationname='org.bndtools.inject' symbolicname='org.bndtools.inject' uri='org.bndtools.inject/org.bndtools.inject-0.0.0.jar' version='0.0.0'>
+    <size>
+      3417
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='org.bndtools.inject'/>
+      <p n='symbolicname' v='org.bndtools.inject'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bndtools.inject'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+  </resource>
+  <resource id='org.bndtools.rt.rest/0.0.1' presentationname='org.bndtools.rt.rest' symbolicname='org.bndtools.rt.rest' uri='org.bndtools.rt.rest/org.bndtools.rt.rest-0.0.1.jar' version='0.0.1'>
+    <size>
+      2161601
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='org.bndtools.rt.rest'/>
+      <p n='symbolicname' v='org.bndtools.rt.rest'/>
+      <p n='version' t='version' v='0.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bndtools.inject'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.ws.rs'/>
+      <p n='uses' v='javax.ws.rs.core'/>
+      <p n='version' t='version' v='1.1.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.ws.rs.ext'/>
+      <p n='uses' v='javax.ws.rs.core,javax.ws.rs'/>
+      <p n='version' t='version' v='1.1.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.ws.rs.core'/>
+      <p n='uses' v='javax.ws.rs,javax.ws.rs.ext'/>
+      <p n='version' t='version' v='1.1.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.bndtools.inject)(version&gt;=0.0.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.bndtools.inject ;version=[0.0.0,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.6.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.util
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.imageio.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.ws.rs.core ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.enterprise.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.enterprise.util
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ejb)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.ejb
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.enterprise.inject.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.enterprise.inject.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.imageio.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.persistence)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.persistence
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.enterprise.context.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.enterprise.context.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.enterprise.inject)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.enterprise.inject
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.annotation.security)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.annotation.security
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.jsp.tagext)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.jsp.tagext
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=org.objectweb.asm)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.objectweb.asm
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.imageio
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.log ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.interceptor)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.interceptor
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.jersey.core.osgi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package com.sun.jersey.core.osgi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.internet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.internet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http ;version=[2.5.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet ;version=[2.5.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.enterprise.event)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.enterprise.event
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ws.rs)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.ws.rs ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.enterprise.context)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.enterprise.context
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.net.httpserver)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package com.sun.net.httpserver
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ws.rs.ext)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.ws.rs.ext ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.inject)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.inject ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.jsp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.jsp
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.stream
+    </require>
+  </resource>
+</repository>
